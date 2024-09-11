@@ -31,6 +31,9 @@ Logging: Maintain logs of the script execution for tracking and troubleshooting.
 # 1. Identifying Log Files
 I will start by identifying the log files to be analyzed. For this example, I will focus on system logs located in /var/log, specifically syslog and auth.log.
 
+<img width="445" alt="bass" src="https://github.com/user-attachments/assets/76f83045-33c7-4f36-81c7-cfe7a3bae807">
+
+
 # 2. Parsing Log Files
 To extract relevant information, I will use commands like grep and awk to filter and format the log data.
 
@@ -40,14 +43,21 @@ Data analysis will involve searching for specific patterns, such as error messag
 # 4. Generating Reports
 The results of the analysis will be compiled into a summary report. This report will include timestamps, error counts, and other relevant details.
 
+<img width="539" alt="bassy" src="https://github.com/user-attachments/assets/73fef29d-9cf8-4044-945f-701a07ec9a90">
+
 # 5. Implementing Error Handling
 Error handling will ensure that any issues during execution are captured and reported. This will be achieved using trap and error checking after critical commands.
+
+<img width="418" alt="bassh" src="https://github.com/user-attachments/assets/7bfaf4da-efee-408b-8443-c35005ec52c4">
 
 # 6. Incorporating Logging Mechanisms
 Logging mechanisms will track the execution of the script, including any issues or significant events. I will use a dedicated log file for this purpose.
 
 # 7. Testing and Optimization
 I will test the script thoroughly in a controlled environment, optimizing it for performance and resource usage.
+
+<img width="142" alt="jkjk" src="https://github.com/user-attachments/assets/5ec35128-db25-4d1f-987e-e7b750400bb6">
+
 
 # Bash Script Implementation
 Here is the Bash script that accomplishes the described task:
@@ -119,10 +129,17 @@ Initialize Logs:
 Sets up the initial state for the report and error logs.
 Error Checking: A function to handle errors by checking the exit status of commands.
 
+<img width="408" alt="analss" src="https://github.com/user-attachments/assets/9ac4c75c-97eb-42f9-bcc2-93f6655993a3">
+
+
 Analyze Syslog:
 
 Searches for "error" in syslog and formats the output.
 Analyze Auth.log: Searches for "Failed password" in auth.log and formats the output.
+
+
+<img width="303" alt="analy" src="https://github.com/user-attachments/assets/ef44d774-7c34-43f3-b04f-7278680866a3">
+
 
 Generate Report:
 
