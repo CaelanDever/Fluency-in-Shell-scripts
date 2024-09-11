@@ -352,6 +352,8 @@ Functionality: Verified that all functionalities work as expected.
 
 Edge Cases: Handled scenarios like missing user attributes and incorrect paths.
 
+<img width="460" alt="psl" src="https://github.com/user-attachments/assets/64cad81f-8e11-400e-acb1-2fda9350f859">
+
 Performance: Optimized by minimizing redundant operations and ensuring efficient data handling.
 
 # Conclusion
