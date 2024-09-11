@@ -196,21 +196,40 @@ Logging and Reporting: Track and report script execution and changes.
 
 The script begins by connecting to the Active Directory environment using the ActiveDirectory module.
 
+
+<img width="462" alt="ps1" src="https://github.com/user-attachments/assets/fc1c6a92-7afe-443f-947c-d3de85f4d97d">
+
+
 2. Create New Users
 
 It uses PowerShell cmdlets to create new user accounts with attributes such as username, password, and organizational unit (OU).
+
+
+<img width="439" alt="ps2" src="https://github.com/user-attachments/assets/c0a2438d-2fa5-494e-bf9e-4558e7ef59ee">
+
 
 3. Update Existing Users
 
 The script updates user details such as department or title based on certain criteria.
 
+<img width="409" alt="ps3" src="https://github.com/user-attachments/assets/ed5e344a-778c-4504-b612-ea97d0b59fed">
+
+
 4. Disable Inactive Users
 
 It identifies and disables users who have not logged in for a specified period.
 
+<img width="481" alt="ps45" src="https://github.com/user-attachments/assets/ed305c90-d3a8-4a76-b5c6-50b996bfdb9f">
+
+
+
 5. Error Handling
 
 Error handling ensures the script can gracefully handle exceptions and provide meaningful error messages.
+
+
+<img width="674" alt="ps6" src="https://github.com/user-attachments/assets/27529877-5bdc-4d04-934d-770ab2fe9c85">
+
 
 6. Logging and Reporting
 
