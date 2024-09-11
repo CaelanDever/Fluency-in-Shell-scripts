@@ -235,6 +235,7 @@ Error handling ensures the script can gracefully handle exceptions and provide m
 
 The script logs actions taken and reports any issues or changes made during execution.
 
+
 # PowerShell Script Implementation
 
 Here is the PowerShell script that accomplishes the described task:
@@ -338,11 +339,21 @@ Error Checking: Defines a function to handle errors and log them.
 
 Create-NewUser: Function to create a new AD user with specified attributes.
 
+
+<img width="442" alt="powess" src="https://github.com/user-attachments/assets/8fc8204d-8569-48d7-8cdc-0d1554fc18a9">
+
+
+
 Update-User: Function to update user attributes.
 
 Disable-InactiveUsers: Identifies and disables inactive users.
 
 Error Handling: Uses a try-catch block to handle exceptions and log errors.
+
+
+<img width="348" alt="erros" src="https://github.com/user-attachments/assets/3d391416-4e1d-4f09-a8fa-db9fabea6a50">
+
+
 
 Testing and Optimization
 
